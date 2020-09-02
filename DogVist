@@ -1,0 +1,16 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        String dogName = "Milo";
+        String ownerName = "Ja'Mya";
+        boolean firstTimePetOwner = true;
+        float dogsTemp = (float) 102.5;
+        int weeksOld = 9;
+
+        System.out.println( ownerName + " is the owner of " + dogName + " and it is " + firstTimePetOwner + " that " + ownerName +
+        " is a first time pet owner, " + dogName + " is " + weeksOld + " week old, and has a temperature of " + dogsTemp );
+    }
+}
